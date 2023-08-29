@@ -1,4 +1,5 @@
 import './App.css';
+import { ClicksCounter } from './components/ClicksCounter';
 function App() {
   console.log('rendering main layout');
   return (
@@ -26,6 +27,7 @@ function App() {
           Prettier
         </a>
       </p>
+      <ClicksCounter />
     </>
   );
 }
